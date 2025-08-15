@@ -1,0 +1,24 @@
+
+# TensorFlow com suporte CUDA 12.9.1
+tensorflow[and-cuda]==2.15.0
+# Alternativa se a versão acima não funcionar:
+# tensorflow-gpu==2.15.0
+
+# Bibliotecas de suporte
+numpy>=1.24.3
+matplotlib>=3.7.1
+pillow>=10.0.0
+scikit-learn>=1.3.0
+opencv-python>=4.8.0
+
+# Utilitários
+tqdm>=4.65.0
+seaborn>=0.12.2
+
+# Para verificação do sistema
+psutil>=5.9.5
+pynvml>=11.5.0
+
+# Jupyter (opcional para notebooks)
+jupyter>=1.0.0
+ipykernel>=6.25.0
